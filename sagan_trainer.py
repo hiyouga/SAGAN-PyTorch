@@ -24,8 +24,9 @@ class SAGAN_Trainer:
         self.c_loss = nn.CrossEntropyLoss()
 
     def train(self, real_images):
-        ''' compute loss with real images '''
+        ''' train discriminator '''
         d_out_real = self.D(real_images)
+        ''' compute loss with real images '''
         if self.args.adv_loss == 'wgan-gp':
             d_loss_real = -1 * torch.mean(d_out_real)
         elif self.args.adv_loss == 'hinge':
