@@ -50,7 +50,7 @@ We use the CIFAR dataset as the unsupervised training set to generate images.
 ![Fake images with hinge loss](assets/hinge.gif)
 
 <details>
-<summary>Click to show the training details (visualized via [TensorBoard](https://www.tensorflow.org/tensorboard/))</summary>
+<summary>Click to show the training details (visualized via TensorBoard)</summary>
 
 ### Attention weight and Inception score with wgan-gp loss
 
