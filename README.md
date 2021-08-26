@@ -30,7 +30,7 @@ cd SAGAN-PyTorch
 ### Train
 
 ```bash
-python main.py --batch_size 64 --imsize 32 --dataset cifar10 --adv_loss wgan-gp
+python main.py --batch_size 64 --im_size 32 --dataset cifar10 --adv_loss wgan-gp
 ```
 
 ## Results
